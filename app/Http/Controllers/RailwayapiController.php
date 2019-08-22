@@ -13,7 +13,7 @@ class RailwayapiController extends Controller
 	 {
 	$response = [];
 	 	$client = new \GuzzleHttp\Client();
-	    $apikey = '2n1seizlxh';
+	    $apikey = 'fgfggfgfgfgfgfg';
 	    // 12392
 	    $validator = Validator::make($request->all(), [
             'train_number' => 'required|numeric|max:5'
